@@ -1,0 +1,10 @@
+.welcome-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-image: url("https://imgix.bustle.com/uploads/shutterstock/2021/7/14/58b2cdd1-c517-4d73-aceb-3a0b8175814f-shutterstock-1250985262.jpg?w=2000&h=640&fit=crop&crop=faces&auto=format%2Ccompress");
+  box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, 0.7);
+}
