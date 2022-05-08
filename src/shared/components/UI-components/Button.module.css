@@ -1,0 +1,30 @@
+button {
+  border-radius: 24px;
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.1);
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+}
+
+.nav {
+  background: #7c3fa5;
+}
+.success {
+  background: #2ed13b;
+}
+.warning {
+  background: #f87526;
+}
+.danger {
+  background: #fd3b37;
+}
+.disabled {
+  background: #aeb8c0;
+}
+.white {
+  background: #ffffff;
+}
+button:hover {
+  box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, 0.2);
+}

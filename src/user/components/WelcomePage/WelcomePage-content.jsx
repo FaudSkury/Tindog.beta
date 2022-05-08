@@ -1,11 +1,17 @@
 import classes from "./WelcomePage-content.module.css";
 
-const WelcomePageContent = () => {
+import Button from "../../../shared/components/UI-components/Button";
+
+const WelcomePageContent = (props) => {
+  const handleClick = (event) => {
+    props.handleModal(event.target.id);
+  };
   return (
     <div className={classes["welcome-page__content"]}>
       <h2>Swipe Right!</h2>
-
-      <button>Create Account</button>
+      <Button id="Create Account" onClick={handleClick} className="nav">
+        Create Account
+      </Button>
     </div>
   );
 };

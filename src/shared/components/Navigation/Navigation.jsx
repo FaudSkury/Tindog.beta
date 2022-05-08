@@ -1,10 +1,14 @@
-import Logo from "../Logo";
+import Logo from "../UI-components/Logo";
+import NavigationItem from "./Navigation-Item";
+import Button from "../UI-components/Button";
 
 import classes from "./Navigation.module.css";
 
-import NavigationItem from "./Navigation-Item";
+const Navigation = (props) => {
+  const handleClick = (event) => {
+    props.handleModal(event.target.id);
+  };
 
-const Navigation = () => {
   return (
     <div className={classes["navigation"]}>
       <Logo />
@@ -14,7 +18,9 @@ const Navigation = () => {
           <NavigationItem to="/about" name="Learn More" />
         </ul>
         <ul className={classes["navigation-list"]}>
-          <NavigationItem to="/login" name="Login" />
+          <Button id="Login" onClick={handleClick} className="nav">
+            Login
+          </Button>
         </ul>
       </nav>
     </div>
