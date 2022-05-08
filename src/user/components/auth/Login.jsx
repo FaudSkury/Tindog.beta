@@ -3,8 +3,8 @@ import Input from "../../../shared/components/UI-components/Input";
 const Login = () => {
   return (
     <form>
-      <Input />
-      <Input />
+      <Input name="Email" type="text" placeholder="Email" />
+      <Input name="Password" type="text" placeholder="Password" />
     </form>
   );
 };

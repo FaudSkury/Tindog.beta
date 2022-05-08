@@ -10,11 +10,13 @@
 
 .modal {
   position: fixed;
-  top: 30vh;
+  top: 20vh;
   left: 10%;
   z-index: 100;
   overflow: hidden;
   color: black;
+  width: 20vw;
+  height: 55vh;
 }
 
 .header {
