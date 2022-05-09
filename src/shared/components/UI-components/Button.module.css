@@ -1,4 +1,5 @@
-button {
+.nav {
+  background: #c043c0;
   border-radius: 5px;
   box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.1);
   color: white;
@@ -8,24 +9,17 @@ button {
   box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, 0.5);
 }
 
-.nav {
-  background: #c043c0;
+.nav:hover {
+  background: #e04d4dc4;
 }
-.success {
-  background: #2ed13b;
+.small {
+  background: transparent;
+  border: 1px solid;
+  border: 2px solid #0000006e;
+  border-radius: 15px;
+  width: 5vw;
+  height: 3vh;
 }
-.warning {
-  background: #f87526;
-}
-.danger {
-  background: #fd3b37;
-}
-.disabled {
-  background: #aeb8c0;
-}
-.white {
-  background: #ffffff;
-}
-button:hover {
-  background: rgba(224, 77, 77, 0.767);
+.small:hover {
+  background: #67b1e2c4;
 }
